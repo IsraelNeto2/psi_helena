@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --moss: #425A45;
+    --clay: #B4786A;
+    --cream: #F5F2E9;
+    --charcoal: #2A2E2B;
+  }
+  
+  body {
+    @apply bg-cream text-charcoal;
+    margin: 0;
+  }
+}
+
+@layer components {
+  .magnetic-btn {
+    @apply transition-transform duration-300 ease-out hover:scale-105 hover:shadow-2xl active:scale-95;
+  }
+  .hover-lift {
+    @apply transition-all duration-300 ease-out hover:-translate-y-1 hover:text-clay;
+  }
+  .card-solid {
+    @apply bg-cream shadow-md border border-moss border-opacity-10 hover:border-moss hover:border-opacity-30 transition-colors duration-500;
+  }
+  .nav-scrolled {
+    @apply shadow-sm;
+  }
+}
