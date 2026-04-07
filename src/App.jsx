@@ -360,7 +360,7 @@ const CTAAndFooter = () => {
         <h2 className="text-4xl md:text-6xl text-cream mb-8 font-drama">Inicie o cuidado que você precisa.</h2>
         <p className="text-cream/50 max-w-xl mx-auto mb-10 font-jakarta">Valores das sessões e protocolos são passados de forma ética e individualizada no primeiro contato. O atendimento social pode ter condições adaptadas (sujeito a triagem).</p>
         <a
-          href="https://wa.me/5517997435917"
+          href="https://wa.me/5517997435917?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta."
           target="_blank"
           rel="noopener noreferrer"
           className="magnetic-btn bg-moss text-cream px-10 py-5 rounded-[2rem] text-xl font-outfit shadow-2xl hover:bg-moss/80 transition-colors inline-block"
@@ -391,7 +391,7 @@ const CTAAndFooter = () => {
           <div>
             <h5 className="text-cream font-bold mb-4">Contato Oficial</h5>
             <ul className="space-y-3 flex flex-col">
-              <a href="https://wa.me/5517997435917" target="_blank" rel="noopener noreferrer" className="hover:text-clay transition-colors">(17) 99743-5917</a>
+              <a href="https://wa.me/5517997435917?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank" rel="noopener noreferrer" className="hover:text-clay transition-colors">(17) 99743-5917</a>
               <span>Online e Presencial</span>
               <a href="mailto:contato@helenacristina.com" className="hover:text-clay transition-colors">contato@helenacristina.com</a>
             </ul>
