@@ -187,7 +187,7 @@ const CursorProtocolScheduler = () => {
     <div className="card-solid p-8 rounded-[2rem] h-[300px] flex flex-col justify-between relative overflow-hidden group">
       <div>
         <h3 className="text-xl font-bold font-jakarta text-moss mb-2">Múltiplos Formatos</h3>
-        <p className="text-sm text-moss/70 font-jakarta">Presencial na clínica, ou onde você estiver.</p>
+        <p className="text-sm text-moss/70 font-jakarta">Presencial ou Online, ou onde você estiver.</p>
       </div>
       <div className="relative mt-4 flex-1 outline outline-1 outline-moss/10 rounded-xl p-2 bg-cream" ref={svgRef}>
         <div className="grid grid-cols-5 gap-1 mb-2 text-center text-xs font-data text-moss/40 pb-2 border-b border-moss/10">
