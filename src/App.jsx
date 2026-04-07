@@ -42,9 +42,14 @@ const Navbar = () => {
         <a href="#features" className="hover-lift">Especialidades</a>
         <a href="#protocol" className="hover-lift">Acompanhamento</a>
       </div>
-      <button className="magnetic-btn bg-clay text-cream px-5 py-2 rounded-full text-sm font-jakarta font-medium shadow-lg hidden md:block">
+      <a 
+        href="https://wa.me/5517997435917" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="magnetic-btn bg-clay text-cream px-5 py-2 rounded-full text-sm font-jakarta font-medium shadow-lg hidden md:block"
+      >
         Agendar Consulta
-      </button>
+      </a>
     </nav>
   );
 };
@@ -354,9 +359,14 @@ const CTAAndFooter = () => {
       <div className="max-w-3xl mx-auto px-6 mb-32 text-center">
         <h2 className="text-4xl md:text-6xl text-cream mb-8 font-drama">Inicie o cuidado que você precisa.</h2>
         <p className="text-cream/50 max-w-xl mx-auto mb-10 font-jakarta">Valores das sessões e protocolos são passados de forma ética e individualizada no primeiro contato. O atendimento social pode ter condições adaptadas (sujeito a triagem).</p>
-        <button className="magnetic-btn bg-moss text-cream px-10 py-5 rounded-[2rem] text-xl font-outfit shadow-2xl hover:bg-moss/80 transition-colors inline-block">
+        <a 
+          href="https://wa.me/5517997435917" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="magnetic-btn bg-moss text-cream px-10 py-5 rounded-[2rem] text-xl font-outfit shadow-2xl hover:bg-moss/80 transition-colors inline-block"
+        >
           Entrar em Contato Agora
-        </button>
+        </a>
       </div>
 
       <div className="border-t border-moss/20 py-12 px-6 md:px-24">
@@ -381,9 +391,9 @@ const CTAAndFooter = () => {
           <div>
             <h5 className="text-cream font-bold mb-4">Contato Oficial</h5>
             <ul className="space-y-3 flex flex-col">
-              <span className="flex items-center"><AtSign size={16} className="mr-2" /> CRP-06/199771</span>
+              <a href="https://wa.me/5517997435917" target="_blank" rel="noopener noreferrer" className="hover:text-clay transition-colors">(17) 99743-5917</a>
               <span>Online e Presencial</span>
-              <a href="mailto:contato@exemplo.com" className="hover:text-clay transition-colors">Email Profissional</a>
+              <a href="mailto:contato@helenacristina.com" className="hover:text-clay transition-colors">contato@helenacristina.com</a>
             </ul>
           </div>
         </div>
