@@ -42,9 +42,9 @@ const Navbar = () => {
         <a href="#features" className="hover-lift">Especialidades</a>
         <a href="#protocol" className="hover-lift">Acompanhamento</a>
       </div>
-      <a 
-        href="https://wa.me/5517997435917" 
-        target="_blank" 
+      <a
+        href="https://wa.me/5517997435917&text=Olá! Gostaria de agendar uma consulta."
+        target="_blank"
         rel="noopener noreferrer"
         className="magnetic-btn bg-clay text-cream px-5 py-2 rounded-full text-sm font-jakarta font-medium shadow-lg hidden md:block"
       >
@@ -359,9 +359,9 @@ const CTAAndFooter = () => {
       <div className="max-w-3xl mx-auto px-6 mb-32 text-center">
         <h2 className="text-4xl md:text-6xl text-cream mb-8 font-drama">Inicie o cuidado que você precisa.</h2>
         <p className="text-cream/50 max-w-xl mx-auto mb-10 font-jakarta">Valores das sessões e protocolos são passados de forma ética e individualizada no primeiro contato. O atendimento social pode ter condições adaptadas (sujeito a triagem).</p>
-        <a 
-          href="https://wa.me/5517997435917" 
-          target="_blank" 
+        <a
+          href="https://wa.me/5517997435917"
+          target="_blank"
           rel="noopener noreferrer"
           className="magnetic-btn bg-moss text-cream px-10 py-5 rounded-[2rem] text-xl font-outfit shadow-2xl hover:bg-moss/80 transition-colors inline-block"
         >
