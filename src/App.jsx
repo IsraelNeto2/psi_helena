@@ -43,7 +43,7 @@ const Navbar = () => {
         <a href="#protocol" className="hover-lift">Acompanhamento</a>
       </div>
       <a
-        href="https://wa.me/5517997435917&text=Olá! Gostaria de agendar uma consulta."
+        href="https://wa.me/5517997435917&text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta."
         target="_blank"
         rel="noopener noreferrer"
         className="magnetic-btn bg-clay text-cream px-5 py-2 rounded-full text-sm font-jakarta font-medium shadow-lg hidden md:block"
